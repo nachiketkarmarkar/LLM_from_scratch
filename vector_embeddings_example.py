@@ -7,9 +7,6 @@ print("tiktoken version:", version("tiktoken"))
 
 raw_text = None
 
-
-
-
 ## Download raw text
 
 if not os.path.exists("the-verdict.txt"):
